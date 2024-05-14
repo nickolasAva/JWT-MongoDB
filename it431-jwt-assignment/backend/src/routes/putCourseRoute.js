@@ -6,7 +6,7 @@ export const putCourseRoute = {
     path: '/api/course/:id',
     method: 'put',
     handler: async (req, res) => {
-        //TODO: 5 - Uncomment below to enable authentication and update the course
+ 
          const { authorization } = req.headers;
 
         // //verify header was sent
