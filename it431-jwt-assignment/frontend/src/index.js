@@ -11,7 +11,7 @@ import CourseAdd from './components/CourseAdd';
 import CourseUpdate from './components/CourseUpdate';
 import { LogInPage } from './components/LogInPage';
 import { SignUpPage } from './components/SignUpPage';
-//TODO: 7 - Uncomment to Import PrivateRoute
+
 import { PrivateRoute } from './auth/PrivateRoute';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
