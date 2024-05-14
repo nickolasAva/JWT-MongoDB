@@ -6,7 +6,7 @@ export const deleteCourseRoute = {
     path: '/api/course/:id',
     method: 'delete',
     handler: async (req, res) => {
-        //TODO: 6 Uncomment below to enable authentication and delete the course
+
 
          const { authorization } = req.headers;
 
