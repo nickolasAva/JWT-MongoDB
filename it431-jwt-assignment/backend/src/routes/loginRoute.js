@@ -6,7 +6,7 @@ export const loginRoute = {
     path: '/api/login',
     method: 'post',
     handler: async (req, res) => {
-        //TODO: 1. Uncomment the following lines to enable jwt authentication
+
 
 
          const { email, password } = req.body;
