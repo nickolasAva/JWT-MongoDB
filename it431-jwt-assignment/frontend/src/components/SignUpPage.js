@@ -17,7 +17,7 @@ export const SignUpPage = () => {
     };
 
     const onSignUpClicked = async () => {
-        //TODO: 11 - Uncomment the following lines to enable signup
+    
          try {
              const response = await axios.post(
                  `${process.env.REACT_APP_API_URL}/api/signup`,
