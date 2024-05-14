@@ -8,7 +8,7 @@ export const signUpRoute = {
     path: '/api/signup',
     method: 'post',
     handler: async (req, res) => {
-        //TODO: 2. Uncomment the following lines to enable jwt signup
+     
          const { email, password, name } = req.body;
 
          const db = getDbConnection('react-auth-db');
