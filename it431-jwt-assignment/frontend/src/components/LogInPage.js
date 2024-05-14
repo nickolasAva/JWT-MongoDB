@@ -14,7 +14,7 @@ export const LogInPage = () => {
     const navigate = useNavigate();
 
     const onLoginClicked = async () => {
-        //TODO: 10 - Uncomment the following lines to enable login
+   
          try {
              const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/login`, {
                  email: email,
