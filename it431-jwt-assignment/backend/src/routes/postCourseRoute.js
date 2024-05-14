@@ -5,7 +5,7 @@ export const postCourseRoute = {
     path: '/api/course',
     method: 'post',
     handler: async (req, res) => {
-        //TODO: 4 - Comment logic below to add authentication and save new course
+    
 
         const { authorization } = req.headers;
 
