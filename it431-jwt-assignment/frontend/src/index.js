@@ -26,9 +26,9 @@ root.render(
         <Route path="/sign-up" element={<SignUpPage />} />
         <Route path="/courses" element={<CourseList />} />
         <Route path="/courses/:id" element={<CourseDetails />} />
-        {/* TODO: 8 - change element for CourseAdd to <PrivateRoute><CourseAdd /></PrivateRoute>*/}
+  
         <Route path="/courses/add" element={<PrivateRoute><CourseAdd /></PrivateRoute>} />
-        {/* TODO: 9 - change element for CourseUpdate to <PrivateRoute><CourseUpdate /></PrivateRoute>*/}
+     
         <Route path="/courses/update/:id" element={<PrivateRoute><CourseUpdate /></PrivateRoute>} />
       </Routes>
     </Router>
